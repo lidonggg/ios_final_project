@@ -17,14 +17,14 @@ class HomeViewController: UIViewController {
         //self.tabBarItem.title = "风景"
         self.sign = base.cacheGetString(key: "sign")
         print(sign)
-        title = "项目"
+        title = "项目管理"
         view.backgroundColor = .white
         view.addSubview(rootTableView)
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        tabBarController?.tabBar.isHidden = false
+        tabBarController?.tabBar.isHidden = true
     }
     
     lazy var rootTableView : UITableView = { [unowned self] in
@@ -35,11 +35,11 @@ class HomeViewController: UIViewController {
         return tableView
         }()
     lazy var titleArray : [String] = {
-        var array = ["项目一", "项目二", "项目三", "项目四", "项目五", "项目六"]
+        var array = ["项目一", "项目二", "项目三", "项目四", "项目五", "项目六","项目六","项目六"]
         return array
     }()
     let imageArray : [String] = {
-        let array = ["yewan", "shan", "feng", "chang", "fushi", "haidi"]
+        let array = ["yewan", "shan", "feng", "chang", "fushi", "haidi","haidi","haidi"]
         return array
     }()
 }
@@ -65,10 +65,10 @@ extension HomeViewController : UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let otherVC = DetailViewController()
+        let DetailVC = DetailViewController()
         //设置title
-        otherVC.title = titleArray[indexPath.row]
-        self.navigationController?.pushViewController(otherVC, animated: true)
+        DetailVC.title = titleArray[indexPath.row]
+        self.navigationController?.pushViewController(DetailVC, animated: true)
     }
 }
 

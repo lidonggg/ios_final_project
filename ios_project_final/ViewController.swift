@@ -45,7 +45,7 @@ class ViewController: UIViewController {
                     
                     currentMainVC.viewControllers = [navOne]
                     let homeVC = XYSideViewControllerSwift(sideVC, currentMainVC)
-                    homeVC.title = "项目"
+                    //homeVC.title = "项目管理"
                     self.base.cacheSetString(key: "sign", value: username)
                     self.present(homeVC, animated: true, completion: {
                         //print("success")
