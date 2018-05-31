@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (4.7.2)
+  - SwiftFCXRefresh (0.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - SwiftFCXRefresh
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - SwiftFCXRefresh
 
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  SwiftFCXRefresh: 74cad61a77485cb510a23b485913039f347e67ce
 
-PODFILE CHECKSUM: 62eed46bbbe8bdca02aa025e06c66d2499fe6ef3
+PODFILE CHECKSUM: 35f30e5d42ed6e6f0412848e53ef266b4ce28b73
 
 COCOAPODS: 1.5.2

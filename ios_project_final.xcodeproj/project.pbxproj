@@ -21,6 +21,16 @@
 		6D67809420BC3D7B00B67E7F /* background_login.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D67809320BC3D7B00B67E7F /* background_login.jpg */; };
 		6D67809620BC3DBD00B67E7F /* ID.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D67809520BC3DBC00B67E7F /* ID.png */; };
 		6D67809820BC3E2000B67E7F /* Locked.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D67809720BC3E1F00B67E7F /* Locked.png */; };
+		6D9F65A320C003CF00BD5FDD /* FCXRefreshHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F659E20C003CF00BD5FDD /* FCXRefreshHeaderView.swift */; };
+		6D9F65A420C003CF00BD5FDD /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D9F659F20C003CF00BD5FDD /* arrow@2x.png */; };
+		6D9F65A520C003CF00BD5FDD /* UIScrollView+FCXRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F65A020C003CF00BD5FDD /* UIScrollView+FCXRefresh.swift */; };
+		6D9F65A620C003CF00BD5FDD /* FCXRefreshBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F65A120C003CF00BD5FDD /* FCXRefreshBaseView.swift */; };
+		6D9F65A720C003CF00BD5FDD /* FCXRefreshFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F65A220C003CF00BD5FDD /* FCXRefreshFooterView.swift */; };
+		6D9F65AA20C00A1A00BD5FDD /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F65A920C00A1A00BD5FDD /* Project.swift */; };
+		6D9F65AC20C00BCA00BD5FDD /* ToFinishProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F65AB20C00BCA00BD5FDD /* ToFinishProjectViewController.swift */; };
+		6D9F65AE20C00BDD00BD5FDD /* HaveFinishedProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F65AD20C00BDD00BD5FDD /* HaveFinishedProjectViewController.swift */; };
+		6D9F65B220C0109300BD5FDD /* ProjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F65B020C0109300BD5FDD /* ProjectTableViewCell.swift */; };
+		6D9F65B320C0109300BD5FDD /* ProjectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D9F65B120C0109300BD5FDD /* ProjectTableViewCell.xib */; };
 		6DF8702D20BC5E3A000A1905 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF8702C20BC5E3A000A1905 /* Register.storyboard */; };
 		6DF8702F20BC5E8D000A1905 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8702E20BC5E8D000A1905 /* RegisterViewController.swift */; };
 		6DF8703120BD9650000A1905 /* Finger.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF8703020BD964E000A1905 /* Finger.png */; };
@@ -51,6 +61,11 @@
 		6DF870CF20BEEE90000A1905 /* CBToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF870CE20BEEE90000A1905 /* CBToast.swift */; };
 		6DF870D220BEF227000A1905 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF870D120BEF227000A1905 /* BaseClass.swift */; };
 		6DF870D420BF29DA000A1905 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF870D320BF29DA000A1905 /* Back.png */; };
+		6DF8715B20BFE776000A1905 /* ToDoTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8715A20BFE776000A1905 /* ToDoTaskViewController.swift */; };
+		6DF8715D20BFE785000A1905 /* HaveDoneTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8715C20BFE785000A1905 /* HaveDoneTaskViewController.swift */; };
+		6DF8715F20BFEA49000A1905 /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF8715E20BFEA49000A1905 /* home1.png */; };
+		6DF8716120BFEA55000A1905 /* Home2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF8716020BFEA55000A1905 /* Home2.png */; };
+		6DF8716320BFEBC6000A1905 /* Color_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF8716220BFEBC6000A1905 /* Color_extension.swift */; };
 		758F33C70C789BECF5207743 /* Pods_ios_project_finalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE8B16302227D2DFDE4D92B5 /* Pods_ios_project_finalUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -165,6 +180,16 @@
 		6D67809320BC3D7B00B67E7F /* background_login.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_login.jpg; sourceTree = "<group>"; };
 		6D67809520BC3DBC00B67E7F /* ID.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ID.png; sourceTree = "<group>"; };
 		6D67809720BC3E1F00B67E7F /* Locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Locked.png; sourceTree = "<group>"; };
+		6D9F659E20C003CF00BD5FDD /* FCXRefreshHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCXRefreshHeaderView.swift; sourceTree = "<group>"; };
+		6D9F659F20C003CF00BD5FDD /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		6D9F65A020C003CF00BD5FDD /* UIScrollView+FCXRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+FCXRefresh.swift"; sourceTree = "<group>"; };
+		6D9F65A120C003CF00BD5FDD /* FCXRefreshBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCXRefreshBaseView.swift; sourceTree = "<group>"; };
+		6D9F65A220C003CF00BD5FDD /* FCXRefreshFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCXRefreshFooterView.swift; sourceTree = "<group>"; };
+		6D9F65A920C00A1A00BD5FDD /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		6D9F65AB20C00BCA00BD5FDD /* ToFinishProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToFinishProjectViewController.swift; sourceTree = "<group>"; };
+		6D9F65AD20C00BDD00BD5FDD /* HaveFinishedProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveFinishedProjectViewController.swift; sourceTree = "<group>"; };
+		6D9F65B020C0109300BD5FDD /* ProjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectTableViewCell.swift; sourceTree = "<group>"; };
+		6D9F65B120C0109300BD5FDD /* ProjectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProjectTableViewCell.xib; sourceTree = "<group>"; };
 		6DF8702C20BC5E3A000A1905 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
 		6DF8702E20BC5E8D000A1905 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		6DF8703020BD964E000A1905 /* Finger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Finger.png; sourceTree = "<group>"; };
@@ -190,12 +215,15 @@
 		6DF8705E20BDC81F000A1905 /* fushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fushi.png; sourceTree = "<group>"; };
 		6DF8705F20BDC81F000A1905 /* chang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chang.png; sourceTree = "<group>"; };
 		6DF8707320BDD356000A1905 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		6DF870A920BED2DC000A1905 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DF870AD20BED38B000A1905 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF870B020BED3F0000A1905 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../safari_download/Alamofire-master-2/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		6DF870CE20BEEE90000A1905 /* CBToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBToast.swift; sourceTree = "<group>"; };
 		6DF870D120BEF227000A1905 /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
 		6DF870D320BF29DA000A1905 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back.png; path = "../../../../../../../datas/百度网盘/130-1042 iOS Style Line Icons/1042 line icons/60 Pixel/Icon set 3 60px/Arrows/PNG/Back.png"; sourceTree = "<group>"; };
+		6DF8715A20BFE776000A1905 /* ToDoTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTaskViewController.swift; sourceTree = "<group>"; };
+		6DF8715C20BFE785000A1905 /* HaveDoneTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaveDoneTaskViewController.swift; sourceTree = "<group>"; };
+		6DF8715E20BFEA49000A1905 /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home1.png; path = "../../../../../../../datas/百度网盘/130-1042 iOS Style Line Icons/1042 line icons/60 Pixel/Icon set 2 60px/Ecology/PNG/home1.png"; sourceTree = "<group>"; };
+		6DF8716020BFEA55000A1905 /* Home2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home2.png; path = "../../../../../../../datas/百度网盘/130-1042 iOS Style Line Icons/1042 line icons/60 Pixel/Icon set 1 60px/Navigation/PNG/Home2.png"; sourceTree = "<group>"; };
+		6DF8716220BFEBC6000A1905 /* Color_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_extension.swift; sourceTree = "<group>"; };
 		85674395F72C7C2DA2FA6377 /* Pods-ios_project_finalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_project_finalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios_project_finalTests/Pods-ios_project_finalTests.release.xcconfig"; sourceTree = "<group>"; };
 		BB420DD14EB3A8F2B29E81A7 /* Pods_ios_project_finalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_project_finalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3A5014F954D8DB238F465E /* Pods-ios_project_finalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios_project_finalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios_project_finalUITests/Pods-ios_project_finalUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -258,8 +286,6 @@
 			isa = PBXGroup;
 			children = (
 				6DF870B020BED3F0000A1905 /* Alamofire.xcodeproj */,
-				6DF870AD20BED38B000A1905 /* Alamofire.framework */,
-				6DF870A920BED2DC000A1905 /* Alamofire.framework */,
 				6D67805920BC236E00B67E7F /* ios_project_final */,
 				6D67807120BC236F00B67E7F /* ios_project_finalTests */,
 				6D67807C20BC236F00B67E7F /* ios_project_finalUITests */,
@@ -282,10 +308,14 @@
 		6D67805920BC236E00B67E7F /* ios_project_final */ = {
 			isa = PBXGroup;
 			children = (
+				6D9F65AF20C0103B00BD5FDD /* viewcell */,
+				6D9F65A820C009EF00BD5FDD /* model */,
+				6D9F659D20C003CF00BD5FDD /* SwiftFCXRefresh */,
+				6DF8715220BFE75A000A1905 /* taskviews */,
 				6DF870D020BEF1F4000A1905 /* utils */,
 				6DF870CD20BEEE90000A1905 /* Toast */,
 				6DF8704E20BDC81F000A1905 /* resource */,
-				6DF8704920BDC54C000A1905 /* views */,
+				6DF8704920BDC54C000A1905 /* viewcontroller */,
 				6DF8704020BDB69C000A1905 /* homepage */,
 				6DF8702B20BC5C51000A1905 /* storyboard */,
 				6D67805A20BC236E00B67E7F /* AppDelegate.swift */,
@@ -317,6 +347,36 @@
 			path = ios_project_finalUITests;
 			sourceTree = "<group>";
 		};
+		6D9F659D20C003CF00BD5FDD /* SwiftFCXRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				6D9F659E20C003CF00BD5FDD /* FCXRefreshHeaderView.swift */,
+				6D9F659F20C003CF00BD5FDD /* arrow@2x.png */,
+				6D9F65A020C003CF00BD5FDD /* UIScrollView+FCXRefresh.swift */,
+				6D9F65A120C003CF00BD5FDD /* FCXRefreshBaseView.swift */,
+				6D9F65A220C003CF00BD5FDD /* FCXRefreshFooterView.swift */,
+			);
+			name = SwiftFCXRefresh;
+			path = "../../../safari_download/SwiftFCXRefresh-master/SwiftFCXRefresh";
+			sourceTree = "<group>";
+		};
+		6D9F65A820C009EF00BD5FDD /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6D9F65A920C00A1A00BD5FDD /* Project.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6D9F65AF20C0103B00BD5FDD /* viewcell */ = {
+			isa = PBXGroup;
+			children = (
+				6D9F65B020C0109300BD5FDD /* ProjectTableViewCell.swift */,
+				6D9F65B120C0109300BD5FDD /* ProjectTableViewCell.xib */,
+			);
+			path = viewcell;
+			sourceTree = "<group>";
+		};
 		6DF8702B20BC5C51000A1905 /* storyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -331,23 +391,27 @@
 			children = (
 				6DF8704120BDB6BE000A1905 /* HomeViewController.swift */,
 				6DF8704320BDB6D2000A1905 /* HomePage.storyboard */,
+				6D9F65AB20C00BCA00BD5FDD /* ToFinishProjectViewController.swift */,
+				6D9F65AD20C00BDD00BD5FDD /* HaveFinishedProjectViewController.swift */,
 			);
 			path = homepage;
 			sourceTree = "<group>";
 		};
-		6DF8704920BDC54C000A1905 /* views */ = {
+		6DF8704920BDC54C000A1905 /* viewcontroller */ = {
 			isa = PBXGroup;
 			children = (
 				6DF8704A20BDC5C5000A1905 /* SideViewController.swift */,
 				6DF8704C20BDC63B000A1905 /* XYSideViewControllerSwift.swift */,
 				6DF8707320BDD356000A1905 /* DetailViewController.swift */,
 			);
-			path = views;
+			path = viewcontroller;
 			sourceTree = "<group>";
 		};
 		6DF8704E20BDC81F000A1905 /* resource */ = {
 			isa = PBXGroup;
 			children = (
+				6DF8716020BFEA55000A1905 /* Home2.png */,
+				6DF8715E20BFEA49000A1905 /* home1.png */,
 				6DF870D320BF29DA000A1905 /* Back.png */,
 				6DF8703020BD964E000A1905 /* Finger.png */,
 				6D67809720BC3E1F00B67E7F /* Locked.png */,
@@ -402,8 +466,18 @@
 			isa = PBXGroup;
 			children = (
 				6DF870D120BEF227000A1905 /* BaseClass.swift */,
+				6DF8716220BFEBC6000A1905 /* Color_extension.swift */,
 			);
 			path = utils;
+			sourceTree = "<group>";
+		};
+		6DF8715220BFE75A000A1905 /* taskviews */ = {
+			isa = PBXGroup;
+			children = (
+				6DF8715A20BFE776000A1905 /* ToDoTaskViewController.swift */,
+				6DF8715C20BFE785000A1905 /* HaveDoneTaskViewController.swift */,
+			);
+			path = taskviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -575,16 +649,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DF8703120BD9650000A1905 /* Finger.png in Resources */,
+				6DF8715F20BFEA49000A1905 /* home1.png in Resources */,
 				6D67806820BC236F00B67E7F /* LaunchScreen.storyboard in Resources */,
+				6D9F65B320C0109300BD5FDD /* ProjectTableViewCell.xib in Resources */,
 				6D67809620BC3DBD00B67E7F /* ID.png in Resources */,
 				6DF8706A20BDC81F000A1905 /* 04.png in Resources */,
 				6DF8704420BDB6D2000A1905 /* HomePage.storyboard in Resources */,
 				6DF8707020BDC81F000A1905 /* chang.png in Resources */,
 				6DF8706C20BDC81F000A1905 /* shan.png in Resources */,
 				6D67806520BC236F00B67E7F /* Assets.xcassets in Resources */,
+				6D9F65A420C003CF00BD5FDD /* arrow@2x.png in Resources */,
 				6DF870D420BF29DA000A1905 /* Back.png in Resources */,
 				6DF8706320BDC81F000A1905 /* 02.png in Resources */,
 				6DF8706720BDC81F000A1905 /* 07.png in Resources */,
+				6DF8716120BFEA55000A1905 /* Home2.png in Resources */,
 				6DF8706120BDC81F000A1905 /* yewan.png in Resources */,
 				6DF8706920BDC81F000A1905 /* 05.png in Resources */,
 				6DF8706220BDC81F000A1905 /* 01.png in Resources */,
@@ -648,10 +726,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ios_project_final/Pods-ios_project_final-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftFCXRefresh/SwiftFCXRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftFCXRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -702,15 +782,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DF8707420BDD356000A1905 /* DetailViewController.swift in Sources */,
+				6D9F65B220C0109300BD5FDD /* ProjectTableViewCell.swift in Sources */,
 				6DF870D220BEF227000A1905 /* BaseClass.swift in Sources */,
+				6D9F65AE20C00BDD00BD5FDD /* HaveFinishedProjectViewController.swift in Sources */,
 				6DF8704220BDB6BE000A1905 /* HomeViewController.swift in Sources */,
 				6D67805D20BC236E00B67E7F /* ViewController.swift in Sources */,
 				6D67805B20BC236E00B67E7F /* AppDelegate.swift in Sources */,
 				6D67806320BC236E00B67E7F /* ios_project_final.xcdatamodeld in Sources */,
+				6DF8715D20BFE785000A1905 /* HaveDoneTaskViewController.swift in Sources */,
+				6D9F65A520C003CF00BD5FDD /* UIScrollView+FCXRefresh.swift in Sources */,
 				6DF870CF20BEEE90000A1905 /* CBToast.swift in Sources */,
+				6D9F65A620C003CF00BD5FDD /* FCXRefreshBaseView.swift in Sources */,
 				6DF8702F20BC5E8D000A1905 /* RegisterViewController.swift in Sources */,
 				6DF8704D20BDC63B000A1905 /* XYSideViewControllerSwift.swift in Sources */,
+				6D9F65AC20C00BCA00BD5FDD /* ToFinishProjectViewController.swift in Sources */,
+				6DF8716320BFEBC6000A1905 /* Color_extension.swift in Sources */,
+				6DF8715B20BFE776000A1905 /* ToDoTaskViewController.swift in Sources */,
+				6D9F65A720C003CF00BD5FDD /* FCXRefreshFooterView.swift in Sources */,
 				6DF8704B20BDC5C5000A1905 /* SideViewController.swift in Sources */,
+				6D9F65A320C003CF00BD5FDD /* FCXRefreshHeaderView.swift in Sources */,
+				6D9F65AA20C00A1A00BD5FDD /* Project.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,26 +1,27 @@
 //
-//  DetailViewController.swift
+//  HaveFinishedProjectViewController.swift
 //  ios_project_final
 //
-//  Created by LS J on 2018/5/30.
+//  Created by LS J on 2018/5/31.
 //  Copyright © 2018年 LS J. All rights reserved.
 //
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class HaveFinishedProjectViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        //title = "未完成"
+        // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        tabBarController?.tabBar.isHidden = true
-    }
-    
-}
+
     /*
     // MARK: - Navigation
 
@@ -31,3 +32,4 @@ class DetailViewController: UIViewController {
     }
     */
 
+}

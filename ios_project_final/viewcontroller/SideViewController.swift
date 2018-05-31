@@ -14,7 +14,7 @@ class SideViewController: UIViewController {
     var sign:String = String()
 
     static let TABLEVIEWCELLIDENTIFIER = "TABLEVIEWCELLIDENTIFIER"
-    let titleArray = ["项目一", "项目二", "项目三", "项目四"]
+    let titleArray = ["项目一", "已完成", "项目三", "项目四"]
     let imageArray = ["02", "04", "07", "05"]
     
     override func viewDidLoad() {

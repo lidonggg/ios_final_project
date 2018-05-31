@@ -2,7 +2,8 @@
 # platform :ios, '9.0'
 
 target 'ios_project_final' do
-pod 'Alamofire', '~> 4.7'
+	pod 'Alamofire', '~> 4.7'
+	pod 'SwiftFCXRefresh'
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
   
